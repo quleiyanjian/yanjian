@@ -77,8 +77,8 @@ public class StudentController {
         studentMapper.DeleteStudentByname(name);
     }
 
-    @RequestMapping("/delete/byage")
+    /*@RequestMapping("/delete/byage")
     public void deleteStudentByage(@RequestParam(value = "age") String age) {
         studentMapper.DeleteStudentByage(age);
-    }
+    }*/
 }
